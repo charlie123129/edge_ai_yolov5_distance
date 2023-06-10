@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ### 下載 edge_ai_yolov5_distance
 >### 把edge_ai_yolov5_distance資料夾內的資料複製到yolov5資料夾
 ```
-git clone https://github.com/charlie123129/edge_ai_yolov5_distance/tree/main
+git clone https://github.com/charlie123129/edge_ai_yolov5_distance
 ```
 
 ### 建立mydata資料夾放入自己的資料
