@@ -8,6 +8,12 @@ git clone https://github.com/ultralytics/yolov5
 ```
 conda create --name yolov5 python=3.8
 ```
+
+### 切換到虛擬環境
+```
+conda activate yolov5
+```
+
 ### 到yolov5資料內安裝所有需要的套件
 ```
 pip install -r requirements.txt
