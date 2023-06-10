@@ -1,4 +1,5 @@
 # edge_ai_yolov5_distance
+#### 參考文件與成果展示:[【人工智慧與邊緣運算實務期末報告】基於YOLOv5之距離量測](https://hackmd.io/YMHAvP2JS-mq_fR6kTGGgA)
 ### 先下載 yolov5
 ```
 git clone https://github.com/ultralytics/yolov5
@@ -109,7 +110,7 @@ python train.py
 ```
 python detectokfps.py
 ```
->調整weights路徑修改到在train.py訓練好的模型
+>調整weights路徑修改到目標模型
 
 >device 可以設定在cpu或是cuda上進行推論
 
@@ -133,6 +134,3 @@ python benchmarks.py
 python export.py
 ```
 >調整weights路徑修改到目標的模型
-
-
-
