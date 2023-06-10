@@ -6,7 +6,7 @@ git clone https://github.com/ultralytics/yolov5
 ```
 ### 建立虛擬環境
 ```
-conda create yolov5 python=3.8
+conda create --name yolov5 python=3.8
 ```
 ### 到yolov5資料內安裝所有需要的套件
 ```
