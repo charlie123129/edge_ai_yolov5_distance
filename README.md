@@ -105,6 +105,12 @@ python train.py
 >設定epochs
 
 >調整batch size
+
+>yaml檔的路徑要更改到建立的mydata.yaml
+
+>device 可是設定在cpu或是cuda上 (建議cuda)
+
+
     
 也可以下載我已經訓練好的模型
 
@@ -118,7 +124,7 @@ python detectokfps.py
 ```
 >調整weights路徑修改到目標模型
 
->device 可以設定在cpu或是cuda上進行推論
+>device 可以設定在cpu或是cuda上進行推論 
 
 
 #### 標註的準確度比較
@@ -127,6 +133,8 @@ python val.py
 ```
 >調整weights路徑修改到目標的模型
 
+>device 可以設定在cpu或是cuda上進行 (建議cuda)
+
 
 #### 模型轉換優化比較
 ```
@@ -134,9 +142,15 @@ python benchmarks.py
 ```
 >調整weights路徑修改到目標的模型
 
+>device 可以設定在cpu或是cuda上進行 (建議cuda)
+
+
 
 #### 模型轉換
 ```
 python export.py
 ```
 >調整weights路徑修改到目標的模型
+
+>device 可以設定在cpu或是cuda上轉換 (建議cuda)
+
